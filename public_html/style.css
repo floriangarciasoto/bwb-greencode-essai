@@ -1,0 +1,42 @@
+header {
+    background-color: #009ddc;
+}
+
+#brand {
+    background: url('img/momo-brand.webp') center / cover no-repeat;
+}
+
+header img {
+    height: 3em;
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+
+footer {
+    background-color: #009ddc;
+}
+
+article {
+    width: 90%;
+}
+
+article img {
+    width: 90%;
+}
+
+
+/* -- Large screens -- */
+
+@media screen and (min-width: 992px) {
+
+    /* -- Bootstrap missing -- */
+    
+    .w-lg-50 {
+        width: 50%;
+    }
+
+    article {
+        width: 30em;
+    }
+
+}
