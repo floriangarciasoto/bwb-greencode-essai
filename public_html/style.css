@@ -1,16 +1,37 @@
-/* -- Header -- */
+/* -- Bootstrap missing -- */
 
-header {
+.w-80 {
+    width: 80%;
+}
+
+/* -- Global -- */
+
+.bg-main {
     background-color: #009ddc;
 }
-.dark-mode header {
+.dark-mode .bg-main {
     background-color: #333;
 }
+
+.animate {
+    transition-duration: 0.4s;
+}
+
+/* -- Header -- */
 
 header img {
     height: 3em;
     aspect-ratio: 1;
     object-fit: contain;
+}
+
+/* -- Nav -- */
+
+#burger-menu {
+    height: 0;
+}
+#burger-menu.opened {
+    height: 11.5em;
 }
 
 /* -- Footer -- */
