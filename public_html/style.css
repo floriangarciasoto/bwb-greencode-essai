@@ -25,6 +25,13 @@ header img {
     object-fit: contain;
 }
 
+.header-logo {
+    background-color: white;
+}
+.dark-mode .header-logo {
+    background-color: #444;
+}
+
 /* -- Nav -- */
 
 #burger-menu {
